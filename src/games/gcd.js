@@ -11,8 +11,6 @@ const gcd = (a, b) => {
 };
 
 
-
-
 const runGcdGame = () => {
     const userName = runBrainGames();
 
@@ -35,8 +33,8 @@ const runGcdGame = () => {
             return;
         }
     }
+    
     console.log(`Congratulations, ${userName}!`);
-   
 }
 
 export default runGcdGame;

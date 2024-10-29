@@ -23,6 +23,7 @@ const calculate = (num1, num2, operator) => {
 
 const runCalcGame = () => {
     const userName = runBrainGames();
+    
     console.log('What is the result of the expression?');
 
     for (let i = 0; i < 3; i++) {
