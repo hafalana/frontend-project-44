@@ -10,7 +10,6 @@ const gcd = (a, b) => {
     return a;
 };
 
-
 const runGcdGame = () => {
     const userName = runBrainGames();
 

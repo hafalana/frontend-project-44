@@ -12,7 +12,7 @@ const isPrime = (number) => {
             return false;
         }
     }
-
+    return true;
 };
 
 const runPrimeGame = () => {

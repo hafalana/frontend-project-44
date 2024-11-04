@@ -2,7 +2,6 @@ import readlineSync from 'readline-sync';
 import getRandomNum from "../getRandomNum.js";
 import runBrainGames from "../cli.js";
 
-
 const runEvenGame = () => {
     const userName = runBrainGames();
 
