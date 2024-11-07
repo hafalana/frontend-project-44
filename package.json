@@ -12,17 +12,18 @@
     "brain-prime": "bin/brain-prime.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node": "^22.11.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
-    "eslint": "^9.13.0",
-    "eslint-plugin-react": "^7.37.1",
+    "eslint": "^9.14.0",
     "globals": "^15.11.0"
   }
 }
