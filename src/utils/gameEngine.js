@@ -6,7 +6,7 @@ const gameEngine = (gameDescription, getQuestionAndAnswer, numberOfQuestions = 3
 
     console.log(gameDescription);
 
-    for (let i = 0; i < numberOfQuestions; i++) {
+    for (let i = 0; i < numberOfQuestions; i += 1) {
         const { question, correctAnswer } = getQuestionAndAnswer();
         console.log(`Question: ${question}`);
         const userAnswer = readlineSync.question('Your answer: ');

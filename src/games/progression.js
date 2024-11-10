@@ -4,7 +4,7 @@ import getRandomNum from "../utils/getRandomNum.js";
 
 const generateProgression = (length, start, step, missingIndex) => {
     const progression = [];
-    for (let i = 0; i < length; i++) {
+    for (let i = 0; i < length; i += 1) {
         progression.push(start + i * step);
     }
     const missingNumber = progression[missingIndex];
@@ -27,7 +27,3 @@ const runProgressionGame = () => {
 };
 
 export default runProgressionGame;
-
-
-
-
